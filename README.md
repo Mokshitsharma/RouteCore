@@ -149,3 +149,7 @@ src/main/java/routecore/
 src/test/java/routecore/   one suite per module
 data/                      sample_graph.json, sample_jobs.csv
 ```
+
+## License
+
+[MIT](LICENSE) © 2026 Mokshit Sharma
