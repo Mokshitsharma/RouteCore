@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    { "id": "A", "x": 0, "y": 0 },
+    { "id": "B", "x": 2, "y": 1 },
+    { "id": "C", "x": 4, "y": 0 },
+    { "id": "D", "x": 1, "y": 3 },
+    { "id": "E", "x": 3, "y": 4 },
+    { "id": "F", "x": 6, "y": 2 },
+    { "id": "G", "x": 5, "y": 5 },
+    { "id": "H", "x": 7, "y": 4 },
+    { "id": "I", "x": 2, "y": 6 },
+    { "id": "J", "x": 6, "y": 7 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B", "weight": 2.3, "bidirectional": true },
+    { "from": "B", "to": "C", "weight": 2.3, "bidirectional": true },
+    { "from": "A", "to": "D", "weight": 3.2, "bidirectional": true },
+    { "from": "B", "to": "D", "weight": 2.3, "bidirectional": true },
+    { "from": "D", "to": "E", "weight": 2.3, "bidirectional": true },
+    { "from": "B", "to": "E", "weight": 3.2, "bidirectional": true },
+    { "from": "C", "to": "F", "weight": 2.9, "bidirectional": true },
+    { "from": "E", "to": "G", "weight": 2.3, "bidirectional": true },
+    { "from": "F", "to": "G", "weight": 3.2, "bidirectional": true },
+    { "from": "F", "to": "H", "weight": 2.3, "bidirectional": true },
+    { "from": "G", "to": "H", "weight": 2.3, "bidirectional": true },
+    { "from": "D", "to": "I", "weight": 3.2, "bidirectional": true },
+    { "from": "E", "to": "I", "weight": 2.3, "bidirectional": true },
+    { "from": "I", "to": "J", "weight": 4.2, "bidirectional": true },
+    { "from": "G", "to": "J", "weight": 2.3, "bidirectional": true },
+    { "from": "H", "to": "J", "weight": 3.2, "bidirectional": true }
+  ]
+}
