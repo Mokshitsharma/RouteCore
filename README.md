@@ -1,11 +1,22 @@
-# RouteCore
+<!-- readme-refresh 2026-11 -->
+<div align="center">
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Build](https://img.shields.io/badge/build-Maven-blue)
-![Tests](https://img.shields.io/badge/tests-47%2F47%20passing-brightgreen)
-![Runtime deps](https://img.shields.io/badge/runtime%20dependencies-0-success)
-![Scope](https://img.shields.io/badge/scope-DSA%20showcase-lightgrey)
+# 🗺️ RouteCore
 
+**Route optimisation and fleet scheduling in Java, built from scratch**
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+
+</div>
+
+## ✨ Highlights
+
+- Hand-built hash map, min-heap and k-d tree; zero runtime dependencies
+- Dijkstra, A*, nearest-neighbour + 2-opt routing and a min-heap job scheduler
+- Nearest-neighbour search 408× faster than brute force at 100k points
+- 47 passing tests
+
+<!-- body -->
 A **route-optimization and fleet-scheduling engine built from scratch in Java** — no
 routing libraries (no OSRM, no Maps API), and no `java.util.PriorityQueue` or `HashMap`
 in the core. Every data structure and algorithm is hand-built, unit-tested in isolation
@@ -153,3 +164,7 @@ data/                      sample_graph.json, sample_jobs.csv
 ## License
 
 [MIT](LICENSE) © 2026 Mokshit Sharma
+
+---
+
+<div align="center"><sub>Built by <a href="https://github.com/Mokshitsharma">Mokshit Sharma</a> · <a href="https://mokshitsharma27.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305">LinkedIn</a></sub></div>
